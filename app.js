@@ -9,7 +9,7 @@
 */
 
     var
-        gameport        = process.env.PORT || 4004,
+        gameport        = 4004,
 
         io              = require('socket.io'),
         express         = require('express'),
